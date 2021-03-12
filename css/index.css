@@ -103,6 +103,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
+    }
+    
+    .middle-content .boxes .box:hover {
+        border: 10px solid red;
+        transition: border 0.5s;
     }
     /* box colors */
     
