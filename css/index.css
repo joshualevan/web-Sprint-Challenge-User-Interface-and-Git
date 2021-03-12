@@ -179,14 +179,18 @@
     #gallery {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+        border-top: 1px dashed black;
+        padding-top: 8%;
     }
     
     #gallery div {
-        width: 50%;
+        width: 48%;
+        margin-bottom: 10%;
     }
     
     #gallery div img {
-        width: 80%;
+        width: 99%;
     }
     /* =========== FOOTER ================= */
     
