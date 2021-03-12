@@ -167,6 +167,27 @@
     .bottom-content .text-container:last-child {
         padding-right: 0;
     }
+    /* <<<<<<<<<======== ABOUT PAGE ==================================>>>>>>>> */
+    /* about sections */
+    
+    .about {
+        width: 80%;
+        margin: 20px auto;
+    }
+    /* gallery */
+    
+    #gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #gallery div {
+        width: 50%;
+    }
+    
+    #gallery div img {
+        width: 80%;
+    }
     /* =========== FOOTER ================= */
     
     footer {
