@@ -181,16 +181,38 @@
         flex-wrap: wrap;
         justify-content: space-between;
         border-top: 1px dashed black;
-        padding-top: 8%;
+        padding-top: 5%;
     }
     
     #gallery div {
         width: 48%;
         margin-bottom: 10%;
+        padding-bottom: 20px;
+        border-bottom: 1px dashed black;
     }
     
     #gallery div img {
         width: 99%;
+    }
+    
+    #gallery div h2,
+    #gallery div button {
+        margin-top: 10px;
+    }
+    
+    #gallery div button {
+        background-color: white;
+        width: 40%;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    
+    #gallery div button:hover {
+        background-color: rgb(228, 228, 228);
+        color: white;
+        transition: all 0.3s;
     }
     /* =========== FOOTER ================= */
     
