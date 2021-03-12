@@ -108,7 +108,8 @@
     
     .middle-content .boxes .box:hover {
         border: 10px solid red;
-        transition: border 0.5s;
+        transform: rotate(10deg);
+        transition: all 0.5s;
     }
     /* box colors */
     
